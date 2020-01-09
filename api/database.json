@@ -1,0 +1,154 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Chromebook",
+            "year": 2018
+        },
+        {
+            "id": 3,
+            "model": "Lenovo 2100",
+            "year": 2016
+        },
+        {
+            "id": 4,
+            "model": "Dell Inspiron",
+            "year": 2017
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "computerId": 2,
+            "departmentId": 2,
+            "locationId": 4
+        },
+        {
+            "id": 5,
+            "firstName": "Kristen",
+            "lastName": "Norris",
+            "computerId": 3,
+            "departmentId": 1,
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "firstName": "Mo",
+            "lastName": "Silvera",
+            "computerId": 4,
+            "departmentId": 4,
+            "locationId": 3
+        },
+        {
+            "id": 3,
+            "firstName": "Leah",
+            "lastName": "Hoefling",
+            "computerId": 1,
+            "departmentId": 4,
+            "locationId": 2
+        },
+        {
+            "id": 4,
+            "firstName": "Adam",
+            "lastName": "Sheaffer",
+            "computerId": 1,
+            "departmentId": 3,
+            "locationId": 2
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "IT"
+        },
+        {
+            "id": 2,
+            "name": "HR"
+        },
+        {
+            "id": 3,
+            "name": "Marketing"
+        },
+        {
+            "id": 4,
+            "name": "Sales"
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "city": "Memphis"
+        },
+        {
+            "id": 2,
+            "city": "Nashville"
+        },
+        {
+            "id": 3,
+            "city": "Chattanooga"
+        },
+        {
+            "id": 4,
+            "city": "Louisville"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "businessName": "Gandalf Inc"
+        },
+        {
+            "id": 2,
+            "businessName": "Pails & Money"
+        },
+        {
+            "id": 3,
+            "businessName": "Hatchets & Flag"
+        },
+        {
+            "id": 4,
+            "businessName": "Stars & Lumber"
+        },
+        {
+            "id": 5,
+            "businessName": "Duck & Dovetail"
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "employeeId": 1,
+            "customerId": 5,
+            "rate": 60,
+            "contractLength": 180
+        },
+        {
+            "id": 2,
+            "employeeId": 3,
+            "customerId": 4,
+            "rate": 75,
+            "contractLength": 540
+        },
+        {
+            "id": 3,
+            "employeeId": 2,
+            "customerId": 5,
+            "rate": 110,
+            "contractLength": 195
+        },
+        {
+            "id": 4,
+            "employeeId": 1,
+            "customerId": 2,
+            "rate": 250,
+            "contractLength": 80
+        }
+    ]
+}
